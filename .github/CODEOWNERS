@@ -1,0 +1,41 @@
+# CODEOWNERS file for location-tool-267
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reporting @Armor-test/grp-storage @Armor-test/dept-ui
+
+# Directory ownership
+/shared/ @Armor-test/dept-automation @Armor-test/squad-research
+/api/ @Armor-test/team-reporting @Armor-test/grp-api @Armor-test/squad-apps
+/static/ @Armor-test/squad-qa @Armor-test/squad-tooling @Armor-test/grp-reporting
+/dist/ @Armor-test/dept-data @Armor-test/grp-payments @Armor-test/unit-devops
+/spec/ @Armor-test/squad-mobile @Armor-test/dept-automation
+/examples/ @Armor-test/squad-ux @Armor-test/dept-release
+/assets/ @Armor-test/grp-api @Armor-test/dept-notifications
+/auth/ @Armor-test/dept-release @Armor-test/grp-api @Armor-test/unit-devops
+/config/ @Armor-test/team-security @Armor-test/squad-mobile @Armor-test/grp-payments
+/components/ @Armor-test/dept-notifications @Armor-test/dept-automation @Armor-test/dept-data
+/web/ @Armor-test/squad-frontend @Armor-test/squad-cache
+/migrations/ @Armor-test/dept-ui @Armor-test/team-research
+/internal/ @Armor-test/unit-cloud @Armor-test/grp-ui @Armor-test/team-notifications
+
+# File type ownership
+*.yml @Armor-test/team-frontend @Armor-test/grp-integration @Armor-test/squad-frontend
+*.ini @Armor-test/squad-mobile @Armor-test/squad-api
+*.rb @Armor-test/squad-payments @Armor-test/unit-test
+*.yaml @Armor-test/squad-database @Armor-test/squad-reporting
+*.rs @Armor-test/dept-reporting @Armor-test/grp-reporting @Armor-test/squad-tooling
+*.cpp @Armor-test/squad-ux @Armor-test/grp-integration @Armor-test/grp-search
+*.gradle @Armor-test/squad-tooling @Armor-test/team-logging @Armor-test/dept-api
+*.ts @Armor-test/team-frontend @Armor-test/squad-payments
+*.cs @Armor-test/team-core @Armor-test/grp-api
+*.swift @Armor-test/dept-billing @Armor-test/team-reporting @Armor-test/squad-frontend
+*.config @Armor-test/grp-storage @Armor-test/team-research
+*.json @Armor-test/squad-payments @Armor-test/unit-governance @Armor-test/team-logging
+*.tsx @Armor-test/squad-performance @Armor-test/dept-logging
+*.py @Armor-test/team-logging @Armor-test/grp-api @Armor-test/unit-devops
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
